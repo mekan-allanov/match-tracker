@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-BlkIt.eot");
+  src: local("Tactic Sans Black Italic"), local("TacticSans-BlkIt"),
+    url("TacticSans-BlkIt.eot?#iefix") format("embedded-opentype"),
+    url("TacticSans-BlkIt.woff2") format("woff2"), url("TacticSans-BlkIt.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}

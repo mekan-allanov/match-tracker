@@ -1,0 +1,25 @@
+$size-spinner: 100%;
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $size-spinner;
+  height: $size-spinner;
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: spin 1s linear infinite;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

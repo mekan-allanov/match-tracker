@@ -1,0 +1,51 @@
+@import "../../../styles/variables.module.scss";
+
+$size-logo: 48px;
+
+.match-item {
+  padding: 16px 36px;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+
+  background-color: $secondary-bg;
+
+  &__team {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    font-size: 16px;
+  }
+
+  &__team-logo {
+    width: $size-logo;
+    height: $size-logo;
+  }
+
+  &__score {
+    min-width: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  &__score-value {
+    font-size: 20px;
+  }
+
+  &__status {
+    text-align: center;
+    width: 100%;
+    padding: 6px 8px;
+    border-radius: 4px;
+
+    font-size: 12px;
+  }
+}
